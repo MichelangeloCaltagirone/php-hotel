@@ -69,7 +69,7 @@
                     <p class="fs-4"><?= $hotel['description'] ?></p>
                 </li>
                 <li>
-                    <strong>Parcheggio: </strong><?= $hotel['parking'] ?><br>
+                    <strong>Parcheggio: </strong><?= $hotel['parking'] ? ("Si") : ("No")?><br>
                     <span>Distanza dal centro: <?= $hotel['distance_to_center'] ?> Km</span>
                 </li>
             </ul>
