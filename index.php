@@ -56,6 +56,15 @@
 
     <div class="container mt-5">
         <h1 class="text-primary text-center">Hotel List</h1>
+
+        <?php foreach($hotels as $hotel) {?>
+
+            <div>
+                <?php var_dump($hotel) ?>
+            </div>
+
+        <?php } ?>
+
     </div>
 
 <!-- Bootstrap JS -->
